@@ -10,11 +10,11 @@ int main(void)
 	int n;
 	int m;
 	int l;
-	
+
 	for (n = 48; n < 58; n++)
 	{
 		for (m = n; m < 58; m++)
-			for (l=m; l < 58; l++)
+			for (l = m; l < 58; l++)
 				if (n != m && l != n && l != m)
 				{
 					putchar(n);

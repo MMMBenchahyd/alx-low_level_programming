@@ -18,7 +18,7 @@ int main(void)
 		f1 = f2;
 		f2 = sum;
 
-		if (count == 49)
+		if (c == 49)
 			printf("\n");
 		else
 			printf(", ");

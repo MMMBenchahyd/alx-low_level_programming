@@ -9,7 +9,7 @@
 char *cap_string(char *s)
 {
 
-int i = 0;
+	int i = 0;
 	char *p = s;
 	char dif[] = " \t\n,;.!?\"(){}";
 
@@ -23,7 +23,7 @@ int i = 0;
 					*(s + 1) -= 'a' - 'A';
 			}
 		}
-		s++;
+	s++;
 	}
 	return (p);
 }

@@ -16,11 +16,6 @@ int main(int argc, char *argv[])
 	char *l = "A-CHRDw87lNS0E9B2TibgpnMVys5XzvtOGJcYLU+4mjW6fxqZeF3Qa1rPhdKIouk";
 	char p[7] = "      ";
 
-	if (argc != 2)
-	{
-		printf("Correct usage: ./keygen5 username\n");
-		return (1);
-	}
 	len = strlen(argv[1]);
 	p[0] = l[(len ^ 59) & 63];
 	for (i = 0, add = 0; i < len; i++)
